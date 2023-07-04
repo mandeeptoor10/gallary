@@ -1,0 +1,130 @@
+/* gallery.css */
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  font-weight: bold;
+}
+
+/* gallery.css */
+
+/* Reset default styles */
+body, figure, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Set general styles */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+}
+
+.gallery1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery1 li {
+  margin: 10px;
+}
+
+.gallery1 img {
+  cursor: pointer;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.gallery1 img:hover {
+  border-color: #888;
+}
+
+#mainImage {
+  border: 5px solid #888;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+li {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+li img {
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.downloadBtn {
+  display: block; /* Change to block to make the button appear below the image */
+  margin-top: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.downloadBtn:hover {
+  background-color: #45a049;
+}
+
+.downloadBtn:active {
+  background-color: #3e8e41;
+}
